@@ -1,0 +1,54 @@
+{
+  "name": "snoop-bundle-deps",
+  "version": "1.0.0",
+  "description": "snoops npm dependencies in a JavaScript bundle",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "@mattdesl/browser-unpack": "^1.0.2",
+    "all-the-package-names": "^1.0.1",
+    "archy": "^1.0.0",
+    "detective": "^4.0.1",
+    "filter-npm-modules": "^1.0.0",
+    "get-stdin": "^4.0.1",
+    "minimist": "^1.1.1",
+    "object-assign": "^2.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "snoop",
+    "bundle",
+    "js",
+    "bundled",
+    "browserify",
+    "browserified",
+    "require",
+    "detective",
+    "requires",
+    "module",
+    "modules",
+    "package",
+    "packages"
+  ],
+  "bin": {
+    "snoop-bundle-deps": "./bin/cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/snoop-bundle-deps.git"
+  },
+  "homepage": "https://github.com/mattdesl/snoop-bundle-deps",
+  "bugs": {
+    "url": "https://github.com/mattdesl/snoop-bundle-deps/issues"
+  }
+}
