@@ -72,7 +72,7 @@ dependencies [77]
 ├── brorand
 ├── browserify-aes
 ├── browserify-rsa
- ...
+  ...
 ```
 
 [(full list)](https://gist.github.com/mattdesl/429baa59932d72523f3f)
