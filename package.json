@@ -1,6 +1,6 @@
 {
   "name": "snoop-bundle-deps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "snoops npm dependencies in a JavaScript bundle",
   "main": "index.js",
   "license": "MIT",
