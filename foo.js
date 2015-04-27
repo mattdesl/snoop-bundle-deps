@@ -1,1 +1,0 @@
-require('svg-path-contours')
