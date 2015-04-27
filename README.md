@@ -56,6 +56,35 @@ Options:
   --pretty, -p   pretty-print the results
 ```
 
+### in the wild
+
+This could even be used for minified bundles in the wild. For example, as of April 2015, [Yahoo Play](https://screen.yahoo.com/play/) is using roughly 77 public npm modules in its primary bundle.
+
+```sh
+curl https://screen.yahoo.com/play/bundle.js | snoop-bundle-deps -p
+dependencies [77]
+├── asn1.js
+├── asn1.js-rfc3280
+├── async-cache
+├── base64-js
+├── blast-text
+├── bn.js
+├── brorand
+├── browserify-aes
+├── browserify-rsa
+ ...
+```
+
+[(full list)](https://gist.github.com/mattdesl/429baa59932d72523f3f)
+
+This will not work on modules compressed with `bundle-collapser`.
+
+Related:
+
+- [scrape-scripts](https://www.npmjs.com/package/scrape-scripts)
+- [is-browserify-bundle](https://www.npmjs.com/package/is-browserify-bundle)
+
+
 ## License
 
 MIT, see [LICENSE.md](http://github.com/mattdesl/snoop-bundle-deps/blob/master/LICENSE.md) for details.
